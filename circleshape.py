@@ -20,6 +20,10 @@ class CircleShape(pygame.sprite.Sprite):
         # must override
         pass
 
+    def rotate(self, dt: float) -> None:
+        # must override
+        pass
+
     def update(self, dt: float) -> None:
         # must override
         pass
